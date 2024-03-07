@@ -32,13 +32,7 @@
 					</div>
 				</div>
 				<div class="mt-4 flex items-center justify-between">
-					<CtaButton
-						label="Follow"
-						ctaActive={true}
-						onClick={() => {
-							label = 'Following';
-						}}
-					/>
+					<CtaButton label="Follow" ctaActive={true} />
 
 					<div class="flex items-center gap-4">
 						<div
